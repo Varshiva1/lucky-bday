@@ -1,0 +1,59 @@
+body{
+    font-family: 'Baloo Da 2', cursive;
+    margin: 2rem;
+    background-color: burlywood;
+    text-align: center;
+}
+.container{
+ 
+    border-radius: 1rem;
+    align-items: center;
+    margin: auto;
+    /* justify-content: right; */
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    max-height: 50rem;
+    padding: 1rem;
+    background-color: lightgoldenrodyellow;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container h1{
+    text-align: center;
+    color: blueviolet;
+}
+.container h2{
+    color: chocolate;
+    text-align: center;
+}
+label{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: auto;
+    color: rgb(167, 48, 18);
+}
+input{
+padding: .1rem;
+max-width: 13rem;
+border: 2px rgb(190, 197, 84);
+border-radius: 1rem;
+}
+button{cursor: pointer;
+    width: 5rem;
+    background-color: #8fbca7;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2px;
+    border: rgb(242, 10, 250);
+    border-radius: 2px;
+}
+.btn:hover{
+    
+    color: rgb(122, 47, 4);
+}
+#happyimg{
+    z-index: 0;
+}
+
+

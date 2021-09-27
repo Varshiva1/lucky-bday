@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Your Birthday Lucky</title>
+    <link href="/style.css" rel="stylesheet"/>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body>
+    <div class="container">   
+<h1>IS YOUR BIRTHDAY LUCKY</h1>
+<h2>Lets check it</h2>
+<label for="birth-date">Enter your birthdate :</label>
+        <input id="birth-date" type="date"></input>
+      <label for="lucky-number">Enter your lucky number :</label>
+      <input id="lucky-number" type="number" min="0" oninput="validity.valid||(value='');"></input>
+      <button class="btn">check</button>
+      <div id="result"></div>
+        <image id="happyimg" src="/images/happy.png" width= 200px></image>  
+      <image id="sadimg" src="/images/sad.png" width= 200px></image>
+    </div>
+    
+<script src="/index.js"></script>
+  
+</body>
+</html>
